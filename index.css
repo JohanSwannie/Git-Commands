@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-style: double;
+    padding: 2rem;
+}
+
+p   {
+    color: yellow;
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+}
